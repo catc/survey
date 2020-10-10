@@ -320,7 +320,7 @@ func (m *MultiSelect) Cleanup(config *PromptConfig, val interface{}) error {
 			SelectedIndex: m.selectedIndex,
 			Checked:       m.checked,
 			Answer:        answer,
-			ShowAnswer:    true,
+			ShowAnswer:    false,
 			Config:        config,
 		},
 	)
